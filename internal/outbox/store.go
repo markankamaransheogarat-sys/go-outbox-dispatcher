@@ -9,12 +9,12 @@ import (
 )
 
 type Delivery struct {
-	ID         int64
-	EventType  string
-	TargetURL  string
-	Payload    json.RawMessage
-	Signature  string
-	Attempts   int
+	ID        int64
+	EventType string
+	TargetURL string
+	Payload   json.RawMessage
+	Signature string
+	Attempts  int
 }
 
 type Store interface {
